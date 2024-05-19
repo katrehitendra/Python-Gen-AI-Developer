@@ -28,4 +28,4 @@ The app uses the following API endpoint for fetching data:
 Base URL: https://devapi.beyondchats.com/api/get_message_with_sources
 
 ## Adjusting Threshold
-You can adjust the cosine similarity threshold (currently set to 0.7) in the get_citations function to control the confidence level for matching sources.
+cosine similarity threshold (currently set to 0.7) can be adjusted in the get_citations function to control the confidence level for matching sources.
