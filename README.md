@@ -5,7 +5,7 @@ This Flask application fetches data from a paginated API, identifies response so
 
 ## Installation
 Clone this repository to your local machine:
-git clone https://github.com/your-username/citation-extractor.git
+git clone (https://github.com/katrehitendra/Python-Gen-AI-Developer.git)
 
 ## Install the required Python packages:
 pip install flask nltk requests
