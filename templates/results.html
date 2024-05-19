@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Citation Results</title>
+</head>
+<body>
+    <h1>Citation Results</h1>
+    <ul>
+        {% for citation in citations %}
+            <li>
+                <strong>Response:</strong> {{ citation.response }}<br>
+                <strong>Citations:</strong>
+                <ul>
+                    {% for source in citation.citations %}
+                        <li>ID: {{ source.id }}, Link: {{ source.link }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
